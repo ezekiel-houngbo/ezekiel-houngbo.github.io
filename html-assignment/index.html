@@ -1,17 +1,19 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
     <title>html-assignment</title>
   </head>
   <body>
     <header>
-      <h1>Ezekiel Houngbo</h1>
+      <h1 class="site-title">Ezekiel Houngbo</h1>
       <nav>
         <ul>
           <li><a href="./index.html">Home</a></li>
-          <li><a href="./notes.html">Notes</a></li>
+          <li><a href="./about.html">Notes</a></li>
+          <li><a href="./contact.html">Contact</a></li>
         </ul>
       </nav>
       <h2>About Me</h2>
@@ -21,9 +23,10 @@
         src="./images/me.JPG"
         title="Ezekiel Houngbo"
         alt="Ezekiel Houngbo Picture"
+        id="my-image"
         width="400"
         height="600"
-      />
+      >
       <article>
         <h3>Intro about myself</h3>
         Hello, my name is Ezekiel Houngbo. I am born the 14<sup>th</sup> of
@@ -32,7 +35,7 @@
         Engineering Technology - Computing Science. I moved from Toronto to
         Ottawa when I was in 8th grade.
       </article>
-      `
+      
       <article>
         <h3>My interests</h3>
         I have various hobbies. I enjoy playing video games like
@@ -51,12 +54,15 @@
       </blockquote>
       <h3>My hobbies</h3>
       <nav>
-        <ul>
+        <ul class="hobby-list">
           <li>Video Games</li>
           <li>Reading</li>
+          <li>Photography</li>
         </ul>
       </nav>
-      <footer>© 2026 Ezekiel Houngbo — Designed with passion.</footer>
+      <footer>
+        <p>&copy; 2026 Ezekiel Houngbo — Designed with passion.</p>
+      </footer>
     </main>
   </body>
 </html>
