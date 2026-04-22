@@ -1,0 +1,22 @@
+body {
+    background-color: bisque;
+}
+
+/* Changing Color Of Header BG */
+header {
+    background-color: azure;
+    padding: 20px;
+    margin: 20px;
+}
+
+p {
+    color: aquamarine;
+}
+
+h1, h2, h3 {
+    text-decoration: underline;
+}
+
+#aboutus {
+    background-color: yellow;
+}
